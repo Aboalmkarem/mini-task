@@ -9,9 +9,9 @@ class Main extends Component {
                     <span
                         style={{
                             color: `${
-                                this.props.data.counter === 5
+                                this.props.data.counter === 1
                                     ? "red"
-                                    : this.props.data.counter > 5
+                                    : this.props.data.counter > 1
                                     ? "green"
                                     : "yellow"
                             }`,
@@ -25,9 +25,9 @@ class Main extends Component {
                     <span
                         style={{
                             color: `${
-                                this.props.data.counter === 5
+                                this.props.data.counter === 3
                                     ? "red"
-                                    : this.props.data.counter > 5
+                                    : this.props.data.counter > 3
                                     ? "green"
                                     : "yellow"
                             }`,
@@ -41,9 +41,9 @@ class Main extends Component {
                     <span
                         style={{
                             color: `${
-                                this.props.data.counter === 5
+                                this.props.data.counter === 6
                                     ? "red"
-                                    : this.props.data.counter > 5
+                                    : this.props.data.counter > 6
                                     ? "green"
                                     : "yellow"
                             }`,
