@@ -14,6 +14,7 @@ class App extends Component {
         distanceY: 0,
         rotate: 0,
         gas: 100,
+        points: 0,
         show: '',
     };
     increase = () => {
